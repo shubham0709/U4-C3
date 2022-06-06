@@ -19,7 +19,7 @@ const Navbar = () => {
   };
   return (
     <div data-cy="navbar" className={style.flex}>
-      <Link to="/" data-cy="navbar-home-link">
+      <Link to={isAuth ? "products" : "/login"} data-cy="navbar-home-link">
         Logo
       </Link>
       <span data-cy="navbar-cart-items-count">
