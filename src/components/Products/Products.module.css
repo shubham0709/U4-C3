@@ -1,0 +1,11 @@
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+.gridItem {
+  border: 2px solid black;
+  padding: 5px 4px;
+  border-radius: 20px;
+}
